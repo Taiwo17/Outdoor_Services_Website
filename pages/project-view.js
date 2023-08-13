@@ -1,4 +1,3 @@
-import BreadCrumb from '@/components/BreadCrumb'
 import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
@@ -18,13 +17,7 @@ function ProjectView() {
       </Head>
       <>
         <Navbar />
-        <section className='pt-[172px] px-8 mb-16 md:px-12 lg:px-32'>
-          {/*  <BreadCrumb
-            title={'Work'}
-            content={' Retaining Wall ...'}
-            linkContent={'/'}
-          /> */}
-        </section>
+        <section className='pt-[172px] px-8 mb-16 md:px-12 lg:px-32'></section>
         <section className='px-8 md:px-12 lg:px-32'>
           <ProjectDetails
             title={'Retaining Wall Project'}

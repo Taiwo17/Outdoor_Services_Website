@@ -1,4 +1,3 @@
-import BreadCrumb from '@/components/BreadCrumb'
 import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
@@ -18,14 +17,7 @@ function BlogSlug() {
       </Head>
       <>
         <Navbar />
-        <section className='pt-[172px] px-8 mb-8 md:px-12 lg:px-32 lg:mb-16'>
-          <BreadCrumb
-            title={'Blog'}
-            content={'5 Benefit of ...'}
-            linkTitle={`/blog`}
-            linkContent={`/`}
-          />
-        </section>
+        <section className='pt-[172px] px-8 mb-8 md:px-12 lg:px-32 lg:mb-16'></section>
         <div className='flex flex-col gap-6 mb-[52px]  px-8 md:px-12 lg:pl-[179px] lg:pr-[279px] lg:gap-8'>
           <h2 className='font-sora font-normal text-[30px] text-[#315C1E] leading-tight md:text-[35px] lg:leading-[64px] lg:text-[56px]'>
             5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard

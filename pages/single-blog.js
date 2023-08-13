@@ -1,4 +1,3 @@
-import BreadCrumb from '@/components/BreadCrumb'
 import ContactForm from '@/components/ContactForm'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
@@ -17,13 +16,7 @@ function SingleBlog() {
       </Head>
       <>
         <Navbar />
-        <section className='pt-[172px] px-8 mb-8 md:px-12 lg:px-32 lg:mb-[60px]'>
-          {/*           <BreadCrumb
-            title={'Blog'}
-            content={'5 Benefits of ...'}
-            linkContent={'/'}
-          /> */}
-        </section>
+        <section className='pt-[172px] px-8 mb-8 md:px-12 lg:px-32 lg:mb-[60px]'></section>
         <section className='px-8 mb-[52px] md:px-12 lg:pl-[179px] lg:pr-[279px]'>
           <div className='flex flex-col gap-4 lg:gap-8'>
             <h1 className='font-sora font-normal text-[25px] text-menu-bg md:text-[35px] lg:text-[56px] lg:leading-[64px]'>

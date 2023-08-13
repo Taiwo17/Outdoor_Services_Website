@@ -1,6 +1,5 @@
 import { useRouter } from 'next/router'
 import React from 'react'
-import BreadCrumb from '@/components/BreadCrumb'
 import CardTestimony from '@/components/CardTestimony'
 import CardWalls from '@/components/CardWalls'
 import Footer from '@/components/Footer'
@@ -30,14 +29,7 @@ function Slug() {
       </Head>
       <>
         <Navbar />
-        <section className='pt-[172px] px-8 mb-8 md:px-12 lg:px-32 lg:mb-16'>
-          <BreadCrumb
-            title={'Services'}
-            content={'Retaining Walls Des...'}
-            link={`/our-services`}
-            linkTitle={`/our-services`}
-          />
-        </section>
+        <section className='pt-[172px] px-8 mb-8 md:px-12 lg:px-32 lg:mb-16'></section>
         <section className='px-8 md:px-12 mb-16 lg:px-32 lg:mb-32'>
           <ProjectDetails
             title={title}
