@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { LocationIcon, MessageIcon, PhoneIcon } from './icons'
+import { LocationIcon, MessageIcon, PhoneIcon } from './Icons'
 
 function WorkingHour() {
   return (
