@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-function BreadCrumb({ title, link, content, linkTitle }) {
+function BreadCrumb({ title, linkContent, content, linkTitle }) {
   const router = useRouter()
   const currentLink = router.pathname
   const activeLink = 'font-sora text-sm font-light leading-24 text-menu-bg'
@@ -20,8 +20,12 @@ function BreadCrumb({ title, link, content, linkTitle }) {
         </p>
       </Link>
       <p className='h-6 font-sora'>/</p>
-      <Link href={link}>
-        <p className={currentLink === `/${link}` ? activeLink : inActiveLink}>
+      <Link href={linkContent}>
+        <p
+          className={
+            currentLink === `/${linkContent}` ? activeLink : inActiveLink
+          }
+        >
           {content}
         </p>
       </Link>

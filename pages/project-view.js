@@ -22,7 +22,7 @@ function ProjectView() {
           <BreadCrumb
             title={'Work'}
             content={' Retaining Wall ...'}
-            link={'/'}
+            linkContent={'/'}
           />
         </section>
         <section className='px-8 md:px-12 lg:px-32'>
