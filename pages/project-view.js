@@ -19,11 +19,11 @@ function ProjectView() {
       <>
         <Navbar />
         <section className='pt-[172px] px-8 mb-16 md:px-12 lg:px-32'>
-          <BreadCrumb
+          {/*  <BreadCrumb
             title={'Work'}
             content={' Retaining Wall ...'}
             linkContent={'/'}
-          />
+          /> */}
         </section>
         <section className='px-8 md:px-12 lg:px-32'>
           <ProjectDetails

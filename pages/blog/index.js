@@ -32,7 +32,7 @@ function Blog() {
               Device connection ipsum connection auto. Follower connection selection
               content content. Follower.`}
               readMore={`Read More`}
-              link={'/blog/blog-slug'}
+              link={'/blog'}
             />
             <BlogPost
               title={`5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard`}
@@ -42,7 +42,7 @@ function Blog() {
               Device connection ipsum connection auto. Follower connection selection
               content content. Follower.`}
               readMore={`Read More`}
-              link={'/blog/blog-slug'}
+              link={'/blog'}
             />
             <BlogPost
               title={`5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard`}
@@ -52,39 +52,7 @@ function Blog() {
               Device connection ipsum connection auto. Follower connection selection
               content content. Follower.`}
               readMore={`Read More`}
-              link={'/blog/blog-slug'}
-            />
-          </div>
-          <div className='grid grid-cols-1 gap-8 mb-12 lg:grid-cols-3'>
-            <BlogPost
-              title={`5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard`}
-              date={`02 Jan, 2023`}
-              author={`Author Name`}
-              content={` Pencil layout ipsum reesizing stroke blur union inspect follower font.
-              Device connection ipsum connection auto. Follower connection selection
-              content content. Follower.`}
-              readMore={`Read More`}
-              link={'/blog/blog-slug'}
-            />
-            <BlogPost
-              title={`5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard`}
-              date={`02 Jan, 2023`}
-              author={`Author Name`}
-              content={` Pencil layout ipsum reesizing stroke blur union inspect follower font.
-              Device connection ipsum connection auto. Follower connection selection
-              content content. Follower.`}
-              readMore={`Read More`}
-              link={'/blog/blog-slug'}
-            />
-            <BlogPost
-              title={`5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard`}
-              date={`02 Jan, 2023`}
-              author={`Author Name`}
-              content={` Pencil layout ipsum reesizing stroke blur union inspect follower font.
-              Device connection ipsum connection auto. Follower connection selection
-              content content. Follower.`}
-              readMore={`Read More`}
-              link={'/blog/blog-slug'}
+              link={'/blog'}
             />
           </div>
           <div className='grid grid-cols-1 gap-8 mb-12 lg:grid-cols-3'>
@@ -96,7 +64,7 @@ function Blog() {
               Device connection ipsum connection auto. Follower connection selection
               content content. Follower.`}
               readMore={`Read More`}
-              link={'/blog/blog-slug'}
+              link={'/blog'}
             />
             <BlogPost
               title={`5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard`}
@@ -106,7 +74,7 @@ function Blog() {
               Device connection ipsum connection auto. Follower connection selection
               content content. Follower.`}
               readMore={`Read More`}
-              link={'/blog/blog-slug'}
+              link={'/blog'}
             />
             <BlogPost
               title={`5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard`}
@@ -116,7 +84,7 @@ function Blog() {
               Device connection ipsum connection auto. Follower connection selection
               content content. Follower.`}
               readMore={`Read More`}
-              link={'/blog/blog-slug'}
+              link={'/blog'}
             />
           </div>
           <div className='grid grid-cols-1 gap-8 mb-12 lg:grid-cols-3'>
@@ -128,7 +96,7 @@ function Blog() {
               Device connection ipsum connection auto. Follower connection selection
               content content. Follower.`}
               readMore={`Read More`}
-              link={'/blog/blog-slug'}
+              link={'/blog'}
             />
             <BlogPost
               title={`5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard`}
@@ -138,7 +106,7 @@ function Blog() {
               Device connection ipsum connection auto. Follower connection selection
               content content. Follower.`}
               readMore={`Read More`}
-              link={'/blog/blog-slug'}
+              link={'/blog'}
             />
             <BlogPost
               title={`5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard`}
@@ -148,7 +116,39 @@ function Blog() {
               Device connection ipsum connection auto. Follower connection selection
               content content. Follower.`}
               readMore={`Read More`}
-              link={'/blog/blog-slug'}
+              link={'/blog'}
+            />
+          </div>
+          <div className='grid grid-cols-1 gap-8 mb-12 lg:grid-cols-3'>
+            <BlogPost
+              title={`5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard`}
+              date={`02 Jan, 2023`}
+              author={`Author Name`}
+              content={` Pencil layout ipsum reesizing stroke blur union inspect follower font.
+              Device connection ipsum connection auto. Follower connection selection
+              content content. Follower.`}
+              readMore={`Read More`}
+              link={'/blog'}
+            />
+            <BlogPost
+              title={`5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard`}
+              date={`02 Jan, 2023`}
+              author={`Author Name`}
+              content={` Pencil layout ipsum reesizing stroke blur union inspect follower font.
+              Device connection ipsum connection auto. Follower connection selection
+              content content. Follower.`}
+              readMore={`Read More`}
+              link={'/blog'}
+            />
+            <BlogPost
+              title={`5 Benefits of Adding a Custom Outdoor Fireplace to Your Backyard`}
+              date={`02 Jan, 2023`}
+              author={`Author Name`}
+              content={` Pencil layout ipsum reesizing stroke blur union inspect follower font.
+              Device connection ipsum connection auto. Follower connection selection
+              content content. Follower.`}
+              readMore={`Read More`}
+              link={'/blog'}
             />
           </div>
           <div className='flex flex-col items-center'>

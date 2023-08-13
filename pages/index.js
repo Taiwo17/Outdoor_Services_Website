@@ -92,7 +92,7 @@ export default function Home() {
               imgHover={'../images/services_images/services1.png'}
               title={'Retaining Walls'}
               desc={`Our company specialises in constructing retaining walls using retaining wall blocks of the finest quality. Using emerging methods we are able to execute on various innovative retaining wall ideas to augment any outdoor space. Whether you need a retaining wall for erosion control, design, or to create more usability our focus is on creating beautifully constructed wall the structurally sound.`}
-              link={'/our-services/retaining-walls'}
+              link={'/our-services'}
               alt={'Retaining Walls'}
             />
             <ServiceSection
@@ -100,7 +100,7 @@ export default function Home() {
               imgHover={'../images/services_images/services2.png'}
               title={'Walkway Design'}
               desc={`Our company specialises in constructing retaining walls using retaining wall blocks of the finest quality. Using emerging methods we are able to execute on various innovative retaining wall ideas to augment any outdoor space. Whether you need a retaining wall for erosion control, design, or to create more usability our focus is on creating beautifully constructed wall the structurally sound.`}
-              link={'/our-services/walkaway-design'}
+              link={'/our-services'}
               alt={'Walkway Design'}
             />
             <ServiceSection
@@ -108,7 +108,7 @@ export default function Home() {
               imgHover={'../images/services_images/services3.png'}
               title={'Patios'}
               desc={`Our company specialises in constructing retaining walls using retaining wall blocks of the finest quality. Using emerging methods we are able to execute on various innovative retaining wall ideas to augment any outdoor space. Whether you need a retaining wall for erosion control, design, or to create more usability our focus is on creating beautifully constructed wall the structurally sound.`}
-              link={'our-services/patios-design'}
+              link={'/our-services'}
               alt={'Patios'}
             />
             <ServiceSection
@@ -116,7 +116,7 @@ export default function Home() {
               imgHover={'../images/services_images/services4.png'}
               title={'Yard Expansion'}
               desc={`Our company specialises in constructing retaining walls using retaining wall blocks of the finest quality. Using emerging methods we are able to execute on various innovative retaining wall ideas to augment any outdoor space. Whether you need a retaining wall for erosion control, design, or to create more usability our focus is on creating beautifully constructed wall the structurally sound.`}
-              link={'/our-services/yard-expansion'}
+              link={'/our-services'}
               alt={'Yard Expansion'}
             />
             <ServiceSection
@@ -124,7 +124,7 @@ export default function Home() {
               imgHover={'../images/services_images/services5.png'}
               title={'Stump Grinding'}
               desc={`Our company specialises in constructing retaining walls using retaining wall blocks of the finest quality. Using emerging methods we are able to execute on various innovative retaining wall ideas to augment any outdoor space. Whether you need a retaining wall for erosion control, design, or to create more usability our focus is on creating beautifully constructed wall the structurally sound.`}
-              link={'/our-services/stump-grinding'}
+              link={'/our-services'}
               alt={'Stump Grinding'}
             />
             <ServiceSection
@@ -132,7 +132,7 @@ export default function Home() {
               imgHover={'../images/services_images/services6.png'}
               title={'Step Building'}
               desc={`Our company specialises in constructing retaining walls using retaining wall blocks of the finest quality. Using emerging methods we are able to execute on various innovative retaining wall ideas to augment any outdoor space. Whether you need a retaining wall for erosion control, design, or to create more usability our focus is on creating beautifully constructed wall the structurally sound.`}
-              link={'/our-services/steps-building'}
+              link={'/our-services'}
               alt={'Step Building'}
             />
           </div>
@@ -273,7 +273,7 @@ export default function Home() {
               Device connection ipsum connection auto. Follower connection selection
               content content. Follower.`}
               readMore={`Read More`}
-              link={`/blog/blog-slug`}
+              link={'/our-services'}
             />
             <BlogPost
               title={`Bold clip pen image ellipse. Align pen imag`}
@@ -283,7 +283,7 @@ export default function Home() {
               Device connection ipsum connection auto. Follower connection selection
               content content. Follower.`}
               readMore={`Read More`}
-              link={`/blog/blog-slug`}
+              link={'/our-services'}
             />
             <BlogPost
               title={`Bold clip pen image ellipse. Align pen imag`}
@@ -293,7 +293,7 @@ export default function Home() {
               Device connection ipsum connection auto. Follower connection selection
               content content. Follower.`}
               readMore={`Read More`}
-              link={`/blog/blog-slug`}
+              link={'/our-services'}
             />
           </div>
         </article>

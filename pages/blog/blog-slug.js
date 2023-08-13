@@ -8,7 +8,6 @@ import React from 'react'
 
 function BlogSlug() {
   const router = useRouter()
-  const { blogslug } = router.query
   return (
     <>
       <Head>
@@ -24,7 +23,7 @@ function BlogSlug() {
             title={'Blog'}
             content={'5 Benefit of ...'}
             linkTitle={`/blog`}
-            link={`/blog/${blogslug}`}
+            linkContent={`/`}
           />
         </section>
         <div className='flex flex-col gap-6 mb-[52px]  px-8 md:px-12 lg:pl-[179px] lg:pr-[279px] lg:gap-8'>

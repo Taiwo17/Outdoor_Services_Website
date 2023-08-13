@@ -18,11 +18,11 @@ function SingleBlog() {
       <>
         <Navbar />
         <section className='pt-[172px] px-8 mb-8 md:px-12 lg:px-32 lg:mb-[60px]'>
-          <BreadCrumb
+          {/*           <BreadCrumb
             title={'Blog'}
             content={'5 Benefits of ...'}
-            link={'/single-blog'}
-          />
+            linkContent={'/'}
+          /> */}
         </section>
         <section className='px-8 mb-[52px] md:px-12 lg:pl-[179px] lg:pr-[279px]'>
           <div className='flex flex-col gap-4 lg:gap-8'>

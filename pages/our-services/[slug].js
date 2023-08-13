@@ -34,7 +34,7 @@ function Slug() {
           <BreadCrumb
             title={'Services'}
             content={'Retaining Walls Des...'}
-            link={`/our-services/${slug}`}
+            link={`/our-services`}
             linkTitle={`/our-services`}
           />
         </section>

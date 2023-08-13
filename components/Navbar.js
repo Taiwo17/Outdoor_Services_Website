@@ -20,6 +20,8 @@ function Navbar() {
     { name: 'Work', link: '/work' },
     { name: 'Blog', link: '/blog' },
     { name: 'Contact Us', link: '/contact-us' },
+    { name: 'Project View', link: '/project-view' },
+    { name: 'Single Blog', link: '/single-blog' },
   ]
   return (
     <nav className='w-full fixed top-0 left-0 z-30'>
@@ -89,8 +91,6 @@ function Navbar() {
             <div className={`lg:flex lg:relative ${open ? 'flex' : 'hidden'}`}>
               <ul className='absolute bg-white pl-8 pb-4 w-full left-0 right-0 top-[88px] flex flex-col gap-3 md:pl-12  lg:gap-6 lg:flex-row lg:items-center lg:relative lg:top-0 lg:pb-0'>
                 {navLinks.map((links, index) => {
-                  // console.log(links.link)
-                  console.log(currentLink)
                   return (
                     <li
                       className={
